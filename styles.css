@@ -1,0 +1,187 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-between;
+    background-color:#1F2937;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header1 {
+    flex-wrap: wrap;
+}
+
+.logo img{
+    padding-right: 30px;
+    height: 100%;
+    width: 8%;
+}
+
+.logo {
+    font-family: 'Hero New', sans-serif;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-shrink: 0;
+    justify-self: center;
+    align-items: center;
+
+}
+
+.left-side, .right-side {
+    display: flex;
+}
+
+a{
+    font-size: 12px;
+    padding-left: 30px;
+    text-decoration: none;
+  }
+
+li, .small-font {
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+.small-font {
+    font-size: 16px;
+} 
+
+.content, .poster{
+    display: flex;
+    flex-direction: column;
+}   
+
+.team-picuresDescriptions {
+    gap: 52px;
+    display: flex;
+    align-items: space-between;
+}
+
+.poster {
+    max-width: 300px;
+}
+
+.poster img{
+    border-radius: 15px;
+    background-color: #3882f6;
+    padding: 5px;
+    min-height: 500px;
+}
+
+.posterdesc {
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.content1-img img {
+    height: 100%;
+    width: 80%;
+    border-radius: 25px;
+}
+
+.content1-img {
+    display: flex;
+    justify-content: end;
+    flex-shrink: 0;
+}
+
+.team-page {
+    align-items: center;
+    padding-top: 50px;
+}
+
+.maintext {
+    font-family: 'Hero New', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header2 {
+    padding-bottom: 50px;
+}
+
+.sign-up-button {
+    display: flex;
+    color: #F9FAF8;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 150px;
+
+}
+
+.quotecontent {
+    padding: 150px;
+    background-color: #E5E7EB;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:  italic;
+    color: lightslategrey;
+}
+
+.quoter {
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.description-content {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+.description-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 100px;
+}
+
+.text-side{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.desc-header{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.desc-text{
+    font-size: 12px;
+}
+
+.desc-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+}
+
+
+
